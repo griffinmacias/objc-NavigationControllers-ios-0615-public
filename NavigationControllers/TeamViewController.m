@@ -33,7 +33,7 @@
     TeamMember *joe = [[TeamMember alloc] initWithName:@"joe" phoneNumber:@"joes number" birthCity:@"joes birthcity" birthState:@"joes state" favoriteBand:@"joes favorite band" image:[UIImage imageNamed:@"joe.jpg"]];
     TeamMember *avi = [[TeamMember alloc] initWithName:@"avi" phoneNumber:@"avis number" birthCity:@"avis birthcity" birthState:@"avis state" favoriteBand:@"avis favorite band" image:[UIImage imageNamed:@"avi.jpg"]];
     TeamMember *chris = [[TeamMember alloc] initWithName:@"chris" phoneNumber:@"chris number" birthCity:@"chris birthcity" birthState:@"chris state" favoriteBand:@"chris favorite band" image:[UIImage imageNamed:@"chris.jpg"]];
-    TeamMember *al = [[TeamMember alloc] initWithName:@"al" phoneNumber:@"als number" birthCity:@"als birthcity" birthState:@"als state" favoriteBand:@"als favorite band" image:[UIImage imageNamed:@"al.jpg"]];
+    TeamMember *al = [[TeamMember alloc] initWithName:@"Al" phoneNumber:@"5551212" birthCity:@"Detroit" birthState:@"Michigan" favoriteBand:@"The Beatles" image:[UIImage imageNamed:@"al.jpg"]];
     
     NSDictionary *teamMembers = @{@"joe":joe, @"avi":avi, @"chris":chris, @"al":al};
     
